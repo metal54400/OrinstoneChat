@@ -1,0 +1,10 @@
+# ==========================================
+#         OrinstoneChat Configuration
+# ==========================================
+# Le format du chat (prefix, suffix, nom) est géré par LPC.
+# OrinstoneChat s'occupe uniquement de colorier le message tapé par le joueur.
+
+# Messages du plugin
+messages:
+  reloaded: "&aOrinstoneChat rechargé avec succès!"
+  plugin-info: "&6OrinstoneChat &7v%version% &8- &7Coloration du chat pour LPC"

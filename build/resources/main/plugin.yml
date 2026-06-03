@@ -1,0 +1,76 @@
+name: OrinstoneChat
+version: '1.0.0'
+main: fr.orinstone.orinstonechat.OrinstoneChat
+api-version: '1.21'
+description: Coloration du chat avec codes & - compatible LPC
+author: Orinstone
+
+permissions:
+  orinstonechat.color:
+    description: Permet d'utiliser tous les codes couleur (&0-&9, &a-&f, &r)
+    default: op
+  orinstonechat.format:
+    description: Permet d'utiliser les codes de formatage (&l, &o, &n, &m)
+    default: op
+  orinstonechat.magic:
+    description: Permet d'utiliser le texte magique (&k)
+    default: op
+
+  orinstonechat.color.black:
+    description: "&0 Noir"
+    default: true
+  orinstonechat.color.dark_blue:
+    description: "&1 Bleu foncé"
+    default: true
+  orinstonechat.color.dark_green:
+    description: "&2 Vert foncé"
+    default: true
+  orinstonechat.color.dark_aqua:
+    description: "&3 Aqua foncé"
+    default: true
+  orinstonechat.color.dark_red:
+    description: "&4 Rouge foncé"
+    default: true
+  orinstonechat.color.dark_purple:
+    description: "&5 Violet foncé"
+    default: true
+  orinstonechat.color.gold:
+    description: "&6 Or"
+    default: true
+  orinstonechat.color.gray:
+    description: "&7 Gris"
+    default: true
+  orinstonechat.color.dark_gray:
+    description: "&8 Gris foncé"
+    default: true
+  orinstonechat.color.blue:
+    description: "&9 Bleu"
+    default: true
+  orinstonechat.color.green:
+    description: "&a Vert"
+    default: true
+  orinstonechat.color.aqua:
+    description: "&b Aqua"
+    default: true
+  orinstonechat.color.red:
+    description: "&c Rouge"
+    default: true
+  orinstonechat.color.light_purple:
+    description: "&d Violet clair"
+    default: true
+  orinstonechat.color.yellow:
+    description: "&e Jaune"
+    default: true
+  orinstonechat.color.white:
+    description: "&f Blanc"
+    default: true
+
+  orinstonechat.admin:
+    description: Accès aux commandes admin du plugin
+    default: op
+
+commands:
+  orinstonechat:
+    description: Commandes du plugin OrinstoneChat
+    usage: /orinstonechat <reload|info|colors>
+    aliases: [ochat]
